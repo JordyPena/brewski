@@ -1,8 +1,11 @@
+import '../Home/Home.css';
 const Home = () => {
 
   return (
-    <main>
-      <p>Home</p>
+    <main className='home-container'>
+      <section className='home-background-img'>
+
+      </section>
     </main>
   )
 }
