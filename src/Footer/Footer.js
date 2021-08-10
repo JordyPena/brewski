@@ -1,9 +1,10 @@
+import '../Footer/Footer.css';
 
 const Footer = () => {
 
   return (
-    <footer>
-        <h2>Brewski</h2>
+    <footer className='footer-container'>
+        <h2>Sasquatch</h2>
     </footer>
   )
 }
