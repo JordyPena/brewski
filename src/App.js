@@ -1,11 +1,12 @@
 import Navbar from './Navbar/Navbar';
 import Footer from './Footer/Footer';
-import Home from './Home/Home';
+import LandingPage from './LandingPage/LandingPage';
+import { Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Home />
+      <Route exact path='/' component={LandingPage} />
       <Footer />
     </div>
   );
