@@ -1,0 +1,9 @@
+.header-container {
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 83, 58);
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+}

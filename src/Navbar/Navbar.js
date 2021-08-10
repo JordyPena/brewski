@@ -1,11 +1,10 @@
-import Searchbar from '../Searchbar/Searchbar';
+import '../Navbar/Navbar.css';
 import Menu from '../Menu/Menu';
 const Navbar = () => {
 
   return (
-    <header>
-      <h1>Brewski</h1>
-      <Searchbar />
+    <header className='header-container'>
+      <h2>Sasquatch</h2>
       <Menu />
     </header>
   )
