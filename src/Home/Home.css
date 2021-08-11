@@ -39,3 +39,16 @@
   border-radius: 7px;
   font-family: "Drone Ranger Inked";
 }
+
+.top-buttons-labels, .top-buttons-style {
+  animation: buttons-load 1000ms ease-in;
+}
+
+@keyframes buttons-load {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
