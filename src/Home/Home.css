@@ -43,7 +43,7 @@
 .top-buttons-labels, .top-buttons-style {
   animation: buttons-load 1000ms ease-in;
 }
-
+/* animation for labels/buttons */
 @keyframes buttons-load {
   0% {
     opacity: 0;
@@ -51,4 +51,10 @@
   100% {
     opacity: 1;
   }
+}
+
+.searchbar-container {
+  display: flex;
+  justify-content: center;
+  margin: -325px 0 0px 0px;
 }
