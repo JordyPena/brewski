@@ -5,3 +5,12 @@
   color: white;
   font-size: 10px;
 }
+
+.bottom-img {
+  background-image: url('https://images.getbento.com/accounts/a01caba8629e97b4951d6615048ba346/media/images/11562trees-bottom.png?w=1800&fit=max&auto=compress,format&h=1800');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;  
+  height: 86px;
+  margin: -60px 0 0 0;
+}

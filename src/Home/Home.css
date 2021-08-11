@@ -1,18 +1,15 @@
 .home-background-img {
-  width: 100%;
   height: 500px;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-image: url('https://images.unsplash.com/photo-1571989237340-98fb838eeef1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHJpdmVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60');  
+  background-image: url('https://images.getbento.com/accounts/a01caba8629e97b4951d6615048ba346/media/images/35146dark-wood-background.png');  
 }
 
 .home-buttons-container {
   display: flex;
-    background-color: rgba(0, 83, 58, 0.6);
+    /* background-color: rgba(0, 83, 58, 0.6);
     margin: 0 20px 0 20px;
-    padding: 0 10px 0 10px;
+    padding: 0 10px 0 10px; */
     text-align: center;
     justify-content: center;
     line-height: 25px;
@@ -23,21 +20,30 @@
   color: rgb(255, 255, 255);
   font-weight: bolder;
   font-size: 20px;
-  margin: 10px 0 0 0;
+  margin: 10px 10px 0 10px;
   font-family: "Drone Ranger Inked";
 }
 
 .top-buttons-style {
-  background-color: rgba(112, 38, 38, 0);
+  background-color: rgb(0, 49, 26);
   color: rgb(255, 255, 255);
   font-weight: bolder;
   font-size: 15px;
   border-color: rgb(255, 255, 255);
-  width: 65px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   margin: 10px 20px 10px 20px;
-  border-radius: 7px;
+  border-radius: 25px;
   font-family: "Drone Ranger Inked";
+  outline: none;
+}
+
+.top-buttons-style:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.top-buttons-style:focus {
+  border-color: burlywood;
 }
 
 .top-buttons-labels, .top-buttons-style {
@@ -58,3 +64,5 @@
   justify-content: center;
   margin: -325px 0 0px 0px;
 }
+
+

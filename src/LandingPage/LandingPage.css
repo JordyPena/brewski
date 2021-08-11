@@ -53,4 +53,13 @@
   background-color: white;
   color: rgb(0, 49, 26);
   font-family: "Drone Ranger Inked";
+  outline: none;
+}
+
+.landingPage-card-button:hover {
+  border-color: black;
+}
+
+.landingPage-card-button:focus {
+  border-color: yellow;
 }

@@ -16,30 +16,28 @@ const Home = () => {
   const showForm = () => {
     setCreateRoute(true);
     setSearchByZipcode(false);
-  }
+  };
   return (
     <main className="home-container">
       <div className="home-background-img">
         <section className="home-buttons-container">
-          <label>
-            <h3 className="top-buttons-labels">Sasquatch search by zipcode</h3>
+          <div>
+            <h3 className="top-buttons-labels">Find Breweries by Zipcode</h3>
 
             <button
               className="top-buttons-style"
               onClick={() => showSearchbar()}
             >
-              Grrrrr
+              Brew
             </button>
-          </label>
-          <label>
-            <h3 className="top-buttons-labels"> Sasquatch make me a tour</h3>
-            <button 
-              className="top-buttons-style"
-              onClick={() => showForm()}
-            >
-              Grrrrr
+          </div>
+          <div>
+            <h3 className="top-buttons-labels">Make a Brewery Tour</h3>
+
+            <button className="top-buttons-style" onClick={() => showForm()}>
+              Tour
             </button>
-          </label>
+          </div>
         </section>
         <div className="searchbar-container">
           {searchByZipcode === true && <Searchbar />}
