@@ -1,9 +1,10 @@
+import '../Searchbar/Searchbar.css';
 const Searchbar = () => {
   return (
     <form>
-      <label>
-        Search:
-        <input type="text" name="searchbar" placeholder="search" />
+      <label className='searchbar-label'>
+        <span>Enter ZipCode</span>
+        <input type="text" name="searchbar" placeholder="Search" />
       </label>
     </form>
   );
