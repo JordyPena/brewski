@@ -1,19 +1,29 @@
 .home-background-img {
-  height: 500px;
+  flex: 1;
+  height: 100%;
   background-repeat: repeat;
   background-position: center;
   background-image: url('https://images.unsplash.com/photo-1616108738832-504f7b6addf2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dHJlZSUyMGJhcmt8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');  
 }
 
+.home-container {
+  flex: 1;
+}
+
 .home-buttons-container {
   display: flex;
+  flex-direction: column;
     /* background-color: rgba(0, 83, 58, 0.6);
     margin: 0 20px 0 20px;
     padding: 0 10px 0 10px; */
     text-align: center;
-    justify-content: center;
+    /* justify-content: center; */
     line-height: 25px;
     height: 500px;
+}
+
+.button-grp {
+  display: flex;
 }
 
 .top-buttons-labels {
@@ -62,7 +72,7 @@
 .searchbar-container {
   display: flex;
   justify-content: center;
-  margin: -325px 0 0px 0px;
+  margin: 25px 0 0px 0px;
 }
 
 
