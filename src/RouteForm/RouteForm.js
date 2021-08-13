@@ -4,7 +4,7 @@ const RouteForm = () => {
   return (
     <form className='routeform-styles'>
       <label className='routeform-labels'>
-       <span>ZipCode</span>
+       <span>Enter City Name</span>
         <input
           type='number'
           name='zipcode'
@@ -12,7 +12,7 @@ const RouteForm = () => {
           placeholder='ZipCode'
         />
       </label>
-      <label className='routeform-labels'>
+      {/* <label className='routeform-labels'>
         <span>Distance Within</span>
         <input
           type='number'
@@ -20,7 +20,7 @@ const RouteForm = () => {
           className='routeform-input-2'
           placeholder='Miles'
         />
-      </label>
+      </label> */}
     </form>
   )
 }
