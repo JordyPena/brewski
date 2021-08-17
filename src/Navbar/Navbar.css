@@ -7,3 +7,16 @@
     font-size: 12px;
     padding: 0px 15px 0px 15px;
 }
+
+.header-link-styles {
+  color: white;
+  text-decoration: none;
+}
+
+.header-link-styles:hover {
+  opacity: 0.5;
+}
+
+.header-link-styles:focus {
+  color: burlywood;
+}
