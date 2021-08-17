@@ -18,11 +18,11 @@ const Home = () => {
     setSearchByZipcode(false);
   };
   return (
-    <main className="home-background-img">
-      <section className="home-buttons-container">
+  
+      <main className="home-buttons-container">
         <div className='button-grp'>
           <div>
-            <h3 className="top-buttons-labels">Find Breweries by Zipcode</h3>
+            <h3 className="top-buttons-labels">Find Breweries by City</h3>
             <button className="top-buttons-style" onClick={() => showSearchbar()}>
               Brew
             </button>
@@ -35,12 +35,10 @@ const Home = () => {
             </button>
           </div>
         </div>
-          <div className="searchbar-container">
             {searchByZipcode && <Searchbar />}
             {createRoute && <RouteForm />}
-          </div>
-      </section>
-    </main>
+      </main>
+ 
   );
 };
 
