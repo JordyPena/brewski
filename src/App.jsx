@@ -1,15 +1,18 @@
+import React from 'react';
+import { Route } from 'react-router-dom';
 import Navbar from './Navbar/Navbar';
 import Footer from './Footer/Footer';
 import LandingPage from './LandingPage/LandingPage';
 import Home from './Home/Home';
 // import BottomImage from './Bottom-img/BottomImage';
-import { Route } from 'react-router-dom';
+/* eslint linebreak-style: ["error", "windows"] */
+
 function App() {
   return (
     <>
       <Navbar />
-      <Route exact path='/' component={LandingPage} />
-      <Route exact path='/home' component={Home} />
+      <Route exact path="/" component={LandingPage} />
+      <Route exact path="/home" component={Home} />
       {/* <Route exact path='/home' component={BottomImage} /> */}
       <Footer />
     </>
