@@ -16,7 +16,6 @@ const Result = ({ brewery }) => (
       <dd>{brewery.brewery_type}</dd>
       <dt>Website</dt>
       {/* <dd><a href={`${brewery.website_url}`}>{brewery.website_url}</a> </dd> */}
-
       <dt>Phone</dt>
       <dd>{brewery.phone}</dd>
     </dl>
@@ -37,7 +36,6 @@ const Result = ({ brewery }) => (
 export default Result;
 
 Result.propTypes = {
-  // eslint-disable-next-line react/require-default-props
   brewery: propTypes.shape({
     id: propTypes.number,
     name: propTypes.string,
@@ -56,5 +54,5 @@ Result.propTypes = {
     website_url: propTypes.string,
     updated_at: propTypes.string,
     created_at: propTypes.string,
-  }),
+  }).isRequired,
 };
