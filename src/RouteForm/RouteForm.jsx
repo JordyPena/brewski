@@ -12,14 +12,12 @@ const RouteForm = () => {
   });
   const [error, setError] = useState(false);
   const [breweries, setBreweries] = useState([]);
-
   const inputsChange = ({ target: { value, name } }) => {
     setInputs((prevInputs) => ({
       ...prevInputs,
       [name]: value,
     }));
   };
-
   const createRoute = (e) => {
     e.preventDefault();
     if (!inputs.city || !inputs.state) {
