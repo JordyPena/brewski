@@ -5,8 +5,6 @@ import Footer from './Footer/Footer';
 import LandingPage from './LandingPage/LandingPage';
 import Home from './Home/Home';
 // import BottomImage from './Bottom-img/BottomImage';
-/* eslint linebreak-style: ["error", "windows"] */
-
 function App() {
   return (
     <>
